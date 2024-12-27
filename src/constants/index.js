@@ -29,18 +29,19 @@ export const ABOUT_TEXT = `🚀 Expert in: <br><br>
 export const EXPERIENCES = [
   {
     year: "Nov.2024 - Present",
-    role: "Front End Developer",
-    company: "Tech Vexa",
-    description: `Responsible for creating interactive user interfaces and maintaining web applications using JavaScript, React.js, and Tailwind CSS. Collaborated with the team to implement Responsive and user-friendly websites, ensuring seamless communication between the front-end and back-end components..`,
-    technologies: ["HTML", "CSS", "JS", "React"],
-  },
-  {
-    year: "Nov.2024 - Present",
     role: "Lecturer (Computer Science)",
     company: "Government Associate Degree College",
     description: `Instruct and mentor students in various computer science subjects, including Operating Systems, Database Management, and Digital Logic Design. Prepare course materials and provide hands-on labs, ensuring students gain practical skills for future careers in technology.`,
     technologies: ["OS", "DB", "PF", "DLD"],
   },
+  {
+    year: "Nov.2024 - Dec.2024",
+    role: "Front End Developer",
+    company: "Tech Vexa",
+    description: `Responsible for creating interactive user interfaces and maintaining web applications using JavaScript, React.js, and Tailwind CSS. Collaborated with the team to implement Responsive and user-friendly websites, ensuring seamless communication between the front-end and back-end components..`,
+    technologies: ["HTML", "CSS", "JS", "React"],
+  },
+  
   {
     year: "Dec.2023 - Present",
     role: "Full Stack Developer",
