@@ -2,6 +2,8 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
 import cybersecurity from "../assets/certifications/cybersecurity.png";
 import erozgar from "../assets/certifications/erozgar.png";
 import website from "../assets/certifications/website.png";
@@ -101,6 +103,13 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "JS", "Bootstrap"],
   },
   {
+    title: "Todo App",
+    image: project6,
+    description:
+      "I have designed a responsive Todo App using React, Redux and Tailwind CSS. The app allows users to add, delete, and search tasks seamlessly. Leveraging the Redux Persist method, it ensures data persistence, so tasks remain saved in the browser even after a refresh.",
+    technologies: ["React", "Tailwind", "Redux"],
+  },
+  {
     title: "Calculator App",
     image: project3,
     description:
@@ -116,7 +125,7 @@ export const PROJECTS = [
   },
   {
     title: "DigiSphare Labs Website",
-    image: project4,
+    image: project5,
     description:
       "A clean and user-friendly website developed with HTML, CSS, and JavaScript. Using a blend of these technologies, I ensured smooth navigation and visually appealing layouts for students, faculty, and visitors alike.",
     technologies: ["HTML", "CSS", "Javascript" , "Bootstrap"],
