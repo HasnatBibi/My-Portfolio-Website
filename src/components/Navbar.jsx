@@ -55,7 +55,7 @@ const Navbar = () => {
           className="lg:hidden text-yellow-400 text-3xl focus:outline-none"
           onClick={toggleMenu}
         >
-          {isMenuOpen ? "" : "☰"}
+          {isMenuOpen ? "×" : "☰"}
         </button>
       </div>
 
@@ -77,25 +77,6 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-
-        {/* <div className="mt-6 flex flex-col items-center gap-6">
-          <h1 className="text-3xl font-bold text-yellow-400 tracking-wide">Hasnat Bibi</h1>
-          <div className="flex items-center gap-6">
-            {[{ href: "https://github.com/HasnatBibi", Icon: FaGithub },
-              { href: "https://www.linkedin.com/in/hasnat-bibi99", Icon: FaLinkedin },
-              { href: "mailto:h.shalmani1@gmail.com", Icon: FaEnvelope }].map(({ href, Icon }, idx) => (
-              <a
-                key={idx}
-                href={href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-yellow-400 transition duration-300 text-2xl"
-              >
-                <Icon />
-              </a>
-            ))}
-          </div>
-        </div> */}
       </div>
     </nav>
   );
